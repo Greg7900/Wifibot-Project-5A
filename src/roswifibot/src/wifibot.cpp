@@ -10,6 +10,7 @@ Wifibot::Wifibot() : Node("wifibot_node"),
     _speedLeft(0.0),
     _speedRight(0.0)
 {
+  
   this->declare_parameter("port", "/dev/ttyUSB0");
   this->declare_parameter("base_frame", "base_frame");
   this->declare_parameter("odom_frame", "odom");
