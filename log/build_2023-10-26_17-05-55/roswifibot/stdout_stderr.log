@@ -1,0 +1,32 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/roswifibot_node.dir/src/wifibot.cpp.o[0m
+[100%] [32m[1mLinking CXX executable roswifibot_node[0m
+[100%] Built target roswifibot_node
+-- Install configuration: ""
+-- Installing: /home/greg/ros2_ws/install/roswifibot/lib/roswifibot/roswifibot_node
+-- Set runtime path of "/home/greg/ros2_ws/install/roswifibot/lib/roswifibot/roswifibot_node" to ""
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/robot_launch.launch
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/firewire.launch
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/robot_launch.py
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/joy_teleop.launch
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/keyboard_teleop.launch
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/hokuyo.launch
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//config
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//config/wifibot.yaml
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/ament_index/resource_index/package_run_dependencies/roswifibot
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/ament_index/resource_index/parent_prefix_path/roswifibot
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/environment/ament_prefix_path.sh
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/environment/path.sh
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/environment/path.dsv
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/local_setup.bash
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/local_setup.sh
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/local_setup.zsh
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/local_setup.dsv
+-- Installing: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.dsv
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/ament_index/resource_index/packages/roswifibot
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/cmake/roswifibotConfig.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/cmake/roswifibotConfig-version.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/home/greg/ros2_ws/src/build/joy2twist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/joy2twist/joy2twist -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/src/install/joy2twist
+Invoked command in '/home/greg/ros2_ws/src/build/joy2twist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/joy2twist/joy2twist -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/src/install/joy2twist
+Invoking command in '/home/greg/ros2_ws/src/build/joy2twist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/src/build/joy2twist -- -j16 -l16
+Invoked command in '/home/greg/ros2_ws/src/build/joy2twist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/src/build/joy2twist -- -j16 -l16
+Invoking command in '/home/greg/ros2_ws/src/build/joy2twist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/src/build/joy2twist
+Invoked command in '/home/greg/ros2_ws/src/build/joy2twist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/src/build/joy2twist

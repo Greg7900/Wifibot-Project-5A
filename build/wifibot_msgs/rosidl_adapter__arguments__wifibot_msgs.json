@@ -1,0 +1,6 @@
+{
+  "package_name": "wifibot_msgs",
+  "non_idl_tuples": [
+    "/home/greg/ros2_ws/src/wifibot_msgs:msg/Status.msg"
+  ]
+}

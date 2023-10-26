@@ -1,0 +1,7 @@
+[01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:[m[K In constructor ‘[01m[KWifibot::Wifibot()[m[K’:
+[01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:56:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   56 |   [01;31m[Kelse[m[K
+      |   [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/roswifibot_node.dir/build.make:76: CMakeFiles/roswifibot_node.dir/src/wifibot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/roswifibot_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

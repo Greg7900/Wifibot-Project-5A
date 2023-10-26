@@ -1,0 +1,6 @@
+Invoking command in '/home/greg/ros2_ws/build/lib_wifibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/lib_wifibot -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/lib_wifibot
+Invoked command in '/home/greg/ros2_ws/build/lib_wifibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/lib_wifibot -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/lib_wifibot
+Invoking command in '/home/greg/ros2_ws/build/lib_wifibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/lib_wifibot -- -j16 -l16
+Invoked command in '/home/greg/ros2_ws/build/lib_wifibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/lib_wifibot -- -j16 -l16
+Invoking command in '/home/greg/ros2_ws/build/lib_wifibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/lib_wifibot
+Invoked command in '/home/greg/ros2_ws/build/lib_wifibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/lib_wifibot

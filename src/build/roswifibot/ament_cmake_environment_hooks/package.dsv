@@ -1,0 +1,4 @@
+source;share/roswifibot/local_setup.bash
+source;share/roswifibot/local_setup.dsv
+source;share/roswifibot/local_setup.sh
+source;share/roswifibot/local_setup.zsh

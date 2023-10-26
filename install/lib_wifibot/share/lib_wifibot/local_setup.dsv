@@ -1,0 +1,3 @@
+source;share/lib_wifibot/environment/ament_prefix_path.sh
+source;share/lib_wifibot/environment/library_path.sh
+source;share/lib_wifibot/environment/path.sh

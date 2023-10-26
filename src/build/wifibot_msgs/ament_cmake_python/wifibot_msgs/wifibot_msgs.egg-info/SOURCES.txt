@@ -1,0 +1,6 @@
+setup.py
+wifibot_msgs/__init__.py
+wifibot_msgs.egg-info/PKG-INFO
+wifibot_msgs.egg-info/SOURCES.txt
+wifibot_msgs.egg-info/dependency_links.txt
+wifibot_msgs.egg-info/top_level.txt

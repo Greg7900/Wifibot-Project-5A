@@ -1,0 +1,29 @@
+[0.118s] Invoking command in '/home/greg/ros2_ws/build/joy2twist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/joy2twist -- -j16 -l16
+[0.183s] [100%] Built target joy2twist
+[0.203s] Invoked command in '/home/greg/ros2_ws/build/joy2twist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/joy2twist -- -j16 -l16
+[0.260s] Invoking command in '/home/greg/ros2_ws/build/joy2twist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/joy2twist
+[0.268s] -- Install configuration: ""
+[0.268s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/lib/joy2twist/joy2twist
+[0.269s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist//launch
+[0.269s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist//launch/joy2twist.launch.py
+[0.269s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist//launch/gamepad_controller.launch.py
+[0.269s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist//config
+[0.269s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist//config/joy2twist.yaml
+[0.270s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist//config/joy2twist_panther.yaml
+[0.270s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/ament_index/resource_index/package_run_dependencies/joy2twist
+[0.270s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/ament_index/resource_index/parent_prefix_path/joy2twist
+[0.270s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/environment/ament_prefix_path.sh
+[0.270s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/environment/ament_prefix_path.dsv
+[0.270s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/environment/path.sh
+[0.271s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/environment/path.dsv
+[0.271s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/local_setup.bash
+[0.271s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/local_setup.sh
+[0.271s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/local_setup.zsh
+[0.271s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/local_setup.dsv
+[0.272s] -- Installing: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.dsv
+[0.272s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/ament_index/resource_index/packages/joy2twist
+[0.272s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.272s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/cmake/joy2twistConfig.cmake
+[0.272s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/cmake/joy2twistConfig-version.cmake
+[0.273s] -- Up-to-date: /home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.xml
+[0.278s] Invoked command in '/home/greg/ros2_ws/build/joy2twist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/joy2twist

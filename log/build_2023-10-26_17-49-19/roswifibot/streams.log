@@ -1,0 +1,34 @@
+[0.061s] Invoking command in '/home/greg/ros2_ws/build/roswifibot': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/roswifibot -- -j16 -l16
+[0.129s] [100%] Built target roswifibot_node
+[0.142s] Invoked command in '/home/greg/ros2_ws/build/roswifibot' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/roswifibot -- -j16 -l16
+[0.182s] Invoking command in '/home/greg/ros2_ws/build/roswifibot': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/roswifibot
+[0.190s] -- Install configuration: ""
+[0.190s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/lib/roswifibot/roswifibot_node
+[0.191s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch
+[0.191s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/robot_launch.launch
+[0.191s] -- Installing: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/joy_teleop_launch.py
+[0.191s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/firewire.launch
+[0.191s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/robot_launch.py
+[0.191s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/joy_teleop.launch
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/keyboard_teleop.launch
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//launch/hokuyo.launch
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//config
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot//config/wifibot.yaml
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/ament_index/resource_index/package_run_dependencies/roswifibot
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/ament_index/resource_index/parent_prefix_path/roswifibot
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/environment/ament_prefix_path.sh
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/environment/ament_prefix_path.dsv
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/environment/path.sh
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/environment/path.dsv
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/local_setup.bash
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/local_setup.sh
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/local_setup.zsh
+[0.192s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/local_setup.dsv
+[0.193s] -- Installing: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.dsv
+[0.193s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/ament_index/resource_index/packages/roswifibot
+[0.193s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.193s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.193s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/cmake/roswifibotConfig.cmake
+[0.193s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/cmake/roswifibotConfig-version.cmake
+[0.193s] -- Up-to-date: /home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.xml
+[0.195s] Invoked command in '/home/greg/ros2_ws/build/roswifibot' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/roswifibot

@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib_wifibot.a CMakeFiles/lib_wifibot.dir/src/libwifibot.cpp.o
+/usr/bin/ranlib liblib_wifibot.a

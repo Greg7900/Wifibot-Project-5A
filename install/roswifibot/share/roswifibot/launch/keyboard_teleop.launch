@@ -1,0 +1,12 @@
+<launch>
+<!-- teleop -->
+<!--
+  $ rostopic pub /ticks roswifibot/speed_msg '{speedLeft: 0.4, speedRight: 0.6}'
+  $ rostopic pub /cmd_speed roswifibot/speed_msg '{speedLeft: 0.4, speedRight: 0.6}'
+-->
+<node pkg="turtlebot_teleop" type="turtlebot_teleop_key" name="teleop"
+      output="screen">
+  <param name="scale_linear" value="0.5" type="double"/>
+  <param name="scale_angular" value="1.5" type="double"/>
+</node>
+</launch>

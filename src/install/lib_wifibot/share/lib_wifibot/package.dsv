@@ -1,0 +1,8 @@
+source;share/lib_wifibot/hook/cmake_prefix_path.ps1
+source;share/lib_wifibot/hook/cmake_prefix_path.dsv
+source;share/lib_wifibot/hook/cmake_prefix_path.sh
+source;share/lib_wifibot/local_setup.bash
+source;share/lib_wifibot/local_setup.dsv
+source;share/lib_wifibot/local_setup.ps1
+source;share/lib_wifibot/local_setup.sh
+source;share/lib_wifibot/local_setup.zsh

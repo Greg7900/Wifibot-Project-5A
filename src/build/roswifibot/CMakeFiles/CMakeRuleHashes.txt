@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+85f3a66cb75c462d53f40a2f77252c70 CMakeFiles/roswifibot_uninstall

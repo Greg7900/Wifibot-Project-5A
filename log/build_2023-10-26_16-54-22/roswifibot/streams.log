@@ -1,0 +1,48 @@
+[0.058s] Invoking command in '/home/greg/ros2_ws/build/roswifibot': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/roswifibot -- -j16 -l16
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target roswifibot_node[0m
+[0.133s] [ 50%] [32mBuilding CXX object CMakeFiles/roswifibot_node.dir/src/wifibot.cpp.o[0m
+[2.494s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:[m[K In constructor ‘[01m[KWifibot::Wifibot()[m[K’:
+[2.494s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:13:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_nh_private[m[K’ was not declared in this scope
+[2.494s]    13 |   [01;31m[K_nh_private[m[K.declare_parameter("port", "/dev/ttyS0");
+[2.494s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.500s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:84:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_nh[m[K’ was not declared in this scope
+[2.500s]    84 |   auto _pubOdometry = [01;31m[K_nh[m[K.create_publisher<nav_msgs::msg::Odometry>("odom", 1);
+[2.500s]       |                       [01;31m[K^~~[m[K
+[2.500s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:84:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.500s]    84 |   auto _pubOdometry = _nh.create_publisher<nav_msgs::msg::Odometry[01;31m[K>[m[K("odom", 1);
+[2.500s]       |                                                                   [01;31m[K^[m[K
+[2.501s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:85:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.501s]    85 |   auto _pubStatus = _nh.create_publisher<wifibot_msgs::msg::Status[01;31m[K>[m[K("status", 1);
+[2.501s]       |                                                                   [01;31m[K^[m[K
+[2.501s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:86:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.501s]    86 |   auto _pubRobotBatteryVoltage = _nh.create_publisher<std_msgs::msg::Float32[01;31m[K>[m[K("robot_battery_voltage", 1);
+[2.501s]       |                                                                             [01;31m[K^[m[K
+[2.501s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:87:80:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.501s]    87 |   auto _pubComputerBatteryVoltage = _nh.create_publisher<std_msgs::msg::Float32[01;31m[K>[m[K("computer_battery_voltage", 1);
+[2.501s]       |                                                                                [01;31m[K^[m[K
+[2.501s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:88:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.502s]    88 |   auto _pubIsCharging = _nh.create_publisher<std_msgs::msg::Bool[01;31m[K>[m[K("is_charging", 1);
+[2.502s]       |                                                                 [01;31m[K^[m[K
+[2.509s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:[m[K In member function ‘[01m[Kvoid Wifibot::update()[m[K’:
+[2.510s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:224:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_nh[m[K’ was not declared in this scope
+[2.510s]   224 |     [01;31m[K_nh[m[K.set_parameter(rclcpp::Parameter("robot_battery_min_voltage", st.voltage));
+[2.510s]       |     [01;31m[K^~~[m[K
+[2.510s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.510s] [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:253:49:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::make_shared<Wifibot>()[m[K’
+[2.510s]   253 |   auto node = [01;31m[Krclcpp::Node::make_shared<Wifibot>()[m[K;
+[2.511s]       |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.511s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:34[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.511s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.511s]                  from [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.h:4[m[K,
+[2.511s]                  from [01m[K/home/greg/ros2_ws/src/roswifibot/src/wifibot.cpp:2[m[K:
+[2.511s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:80:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstatic std::shared_ptr<rclcpp::Node> rclcpp::Node::make_shared(Args&& ...) [with Args = {Wifibot}][m[K’
+[2.511s]    80 |   [01;36m[KRCLCPP_SMART_PTR_DEFINITIONS[m[K(Node)
+[2.511s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.511s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:80:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[3.221s] gmake[2]: *** [CMakeFiles/roswifibot_node.dir/build.make:76: CMakeFiles/roswifibot_node.dir/src/wifibot.cpp.o] Error 1
+[3.222s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/roswifibot_node.dir/all] Error 2
+[3.222s] gmake: *** [Makefile:146: all] Error 2
+[3.224s] Invoked command in '/home/greg/ros2_ws/build/roswifibot' returned '2': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/roswifibot -- -j16 -l16
