@@ -1,1 +1,1 @@
-builtin_interfaces:geometry_msgs:rclcpp:rosidl_default_runtime:std_msgs:tf2_geometry_msgs:wifibot_msgs
+builtin_interfaces:geometry_msgs:lib_wifibot:rclcpp:rosidl_default_runtime:std_msgs:tf2_geometry_msgs:wifibot_msgs

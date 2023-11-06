@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:18 (find_package):
+  By not providing "Findlib_wifibot.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "lib_wifibot", but CMake did not find one.
+
+  Could not find a package configuration file provided by "lib_wifibot" with
+  any of the following names:
+
+    lib_wifibotConfig.cmake
+    lib_wifibot-config.cmake
+
+  Add the installation prefix of "lib_wifibot" to CMAKE_PREFIX_PATH or set
+  "lib_wifibot_DIR" to a directory containing one of the above files.  If
+  "lib_wifibot" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

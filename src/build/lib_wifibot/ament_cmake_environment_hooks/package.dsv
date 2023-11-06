@@ -1,4 +1,0 @@
-source;share/lib_wifibot/local_setup.bash
-source;share/lib_wifibot/local_setup.dsv
-source;share/lib_wifibot/local_setup.sh
-source;share/lib_wifibot/local_setup.zsh

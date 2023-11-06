@@ -1,0 +1,350 @@
+[0.476s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.476s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6b413c9660>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6b41620e20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6b41620e20>>)
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.500s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.500s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/greg/ros2_ws'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'python_setup_py'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'python_setup_py'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extension 'ros'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy2twist/joy2twist' with type 'ros.ament_cmake' and name 'joy2twist'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extension 'colcon_meta'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extension 'ros'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lib_wifibot' with type 'ros.ament_cmake' and name 'lib_wifibot'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extension 'ros'
+[0.513s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roswifibot' with type 'ros.ament_cmake' and name 'roswifibot'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extension 'ros'
+[0.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wifibot_msgs' with type 'ros.ament_cmake' and name 'wifibot_msgs'
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.564s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/greg/ros2_ws/install/arbotix_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.564s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/greg/ros2_ws/install/arbotix_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.571s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/greg/ros2_ws/install
+[0.578s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 226 installed packages in /opt/ros/humble
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_args' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_target' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_clean_cache' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_clean_first' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_force_configure' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'ament_cmake_args' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'catkin_cmake_args' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.622s] DEBUG:colcon.colcon_core.verb:Building package 'joy2twist' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/joy2twist', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/joy2twist', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/joy2twist/joy2twist', 'symlink_install': False, 'test_result_base': None}
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_args' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_target' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_clean_first' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_force_configure' from command line to 'False'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'ament_cmake_args' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.629s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.629s] DEBUG:colcon.colcon_core.verb:Building package 'lib_wifibot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/lib_wifibot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/lib_wifibot', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/lib_wifibot', 'symlink_install': False, 'test_result_base': None}
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.636s] DEBUG:colcon.colcon_core.verb:Building package 'wifibot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/wifibot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/wifibot_msgs', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/wifibot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_target' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_force_configure' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'ament_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.643s] DEBUG:colcon.colcon_core.verb:Building package 'roswifibot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/roswifibot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/roswifibot', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/roswifibot', 'symlink_install': False, 'test_result_base': None}
+[0.649s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.656s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.657s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/wifibot_msgs' with build type 'ament_cmake'
+[0.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/wifibot_msgs'
+[0.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/joy2twist/joy2twist' with build type 'ament_cmake'
+[0.689s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/joy2twist/joy2twist'
+[0.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.720s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/lib_wifibot' with build type 'ament_cmake'
+[0.721s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/lib_wifibot'
+[0.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/wifibot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/wifibot_msgs -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/wifibot_msgs
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/joy2twist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/joy2twist -- -j16 -l16
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/lib_wifibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/lib_wifibot -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/lib_wifibot
+[0.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/joy2twist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/joy2twist -- -j16 -l16
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/joy2twist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/joy2twist
+[0.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy2twist)
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/joy2twist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/joy2twist
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist' for CMake module files
+[0.879s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist' for CMake config files
+[0.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy2twist', 'cmake_prefix_path')
+[0.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.ps1'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.sh'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/bin'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib/pkgconfig/joy2twist.pc'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib/python3.10/site-packages'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/bin'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.ps1'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.dsv'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.sh'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.bash'
+[0.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.zsh'
+[0.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/joy2twist/share/colcon-core/packages/joy2twist)
+[0.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy2twist)
+[0.949s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist' for CMake module files
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist' for CMake config files
+[0.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy2twist', 'cmake_prefix_path')
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.ps1'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.dsv'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.sh'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/bin'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib/pkgconfig/joy2twist.pc'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib/python3.10/site-packages'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/bin'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.dsv'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.sh'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.bash'
+[0.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.zsh'
+[0.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/joy2twist/share/colcon-core/packages/joy2twist)
+[1.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/lib_wifibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/lib_wifibot -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/lib_wifibot
+[1.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/lib_wifibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/lib_wifibot -- -j16 -l16
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/lib_wifibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/lib_wifibot -- -j16 -l16
+[1.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/lib_wifibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/lib_wifibot
+[1.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lib_wifibot)
+[1.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/lib_wifibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/lib_wifibot
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot' for CMake module files
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot' for CMake config files
+[1.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('lib_wifibot', 'cmake_prefix_path')
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.ps1'
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.dsv'
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.sh'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/bin'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib/pkgconfig/lib_wifibot.pc'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib/python3.10/site-packages'
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/bin'
+[1.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.ps1'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.dsv'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.sh'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.bash'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.zsh'
+[1.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/lib_wifibot/share/colcon-core/packages/lib_wifibot)
+[1.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lib_wifibot)
+[1.614s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot' for CMake module files
+[1.614s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot' for CMake config files
+[1.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('lib_wifibot', 'cmake_prefix_path')
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.ps1'
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.dsv'
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.sh'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/bin'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib/pkgconfig/lib_wifibot.pc'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib/python3.10/site-packages'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/bin'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.ps1'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.dsv'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.sh'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.bash'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.zsh'
+[1.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/lib_wifibot/share/colcon-core/packages/lib_wifibot)
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/wifibot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/wifibot_msgs -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/wifibot_msgs
+[1.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/wifibot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/wifibot_msgs -- -j16 -l16
+[2.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/wifibot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/wifibot_msgs -- -j16 -l16
+[2.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/wifibot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/wifibot_msgs
+[3.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wifibot_msgs)
+[3.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/wifibot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/wifibot_msgs
+[3.068s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs' for CMake module files
+[3.069s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs' for CMake config files
+[3.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('wifibot_msgs', 'cmake_prefix_path')
+[3.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.ps1'
+[3.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.dsv'
+[3.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.sh'
+[3.077s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib'
+[3.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('wifibot_msgs', 'ld_library_path_lib')
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.ps1'
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.dsv'
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.sh'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/bin'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib/pkgconfig/wifibot_msgs.pc'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib/python3.10/site-packages'
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/bin'
+[3.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.ps1'
+[3.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.dsv'
+[3.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.sh'
+[3.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.bash'
+[3.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.zsh'
+[3.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/wifibot_msgs/share/colcon-core/packages/wifibot_msgs)
+[3.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wifibot_msgs)
+[3.191s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs' for CMake module files
+[3.191s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs' for CMake config files
+[3.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('wifibot_msgs', 'cmake_prefix_path')
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.ps1'
+[3.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.dsv'
+[3.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.sh'
+[3.200s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib'
+[3.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('wifibot_msgs', 'ld_library_path_lib')
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.ps1'
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.dsv'
+[3.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.sh'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/bin'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib/pkgconfig/wifibot_msgs.pc'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib/python3.10/site-packages'
+[3.210s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/bin'
+[3.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.ps1'
+[3.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.dsv'
+[3.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.sh'
+[3.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.bash'
+[3.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.zsh'
+[3.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/wifibot_msgs/share/colcon-core/packages/wifibot_msgs)
+[3.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/roswifibot' with build type 'ament_cmake'
+[3.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/roswifibot'
+[3.228s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.228s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/roswifibot': AMENT_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/joy2twist:/home/greg/ros2_ws/install/arbotix_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/greg/ros2_ws/install/wifibot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/greg/ros2_ws/install/wifibot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/greg/ros2_ws/src/roswifibot -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/roswifibot
+[4.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/roswifibot' returned '1': AMENT_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/joy2twist:/home/greg/ros2_ws/install/arbotix_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/greg/ros2_ws/install/wifibot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/greg/ros2_ws/install/wifibot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/greg/ros2_ws/src/roswifibot -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/roswifibot
+[4.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roswifibot)
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot' for CMake module files
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot' for CMake config files
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/bin'
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/lib/pkgconfig/roswifibot.pc'
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/lib/python3.10/site-packages'
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/bin'
+[4.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.ps1'
+[4.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.dsv'
+[4.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.sh'
+[4.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.bash'
+[4.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.zsh'
+[4.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/roswifibot/share/colcon-core/packages/roswifibot)
+[4.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.400s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[4.400s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.411s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.425s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.432s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/greg/ros2_ws/install/local_setup.ps1'
+[4.433s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/greg/ros2_ws/install/_local_setup_util_ps1.py'
+[4.434s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/greg/ros2_ws/install/setup.ps1'
+[4.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/greg/ros2_ws/install/local_setup.sh'
+[4.443s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/greg/ros2_ws/install/_local_setup_util_sh.py'
+[4.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/greg/ros2_ws/install/setup.sh'
+[4.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/greg/ros2_ws/install/local_setup.bash'
+[4.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/greg/ros2_ws/install/setup.bash'
+[4.460s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/greg/ros2_ws/install/local_setup.zsh'
+[4.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/greg/ros2_ws/install/setup.zsh'

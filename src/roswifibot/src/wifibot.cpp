@@ -34,7 +34,7 @@ Wifibot::Wifibot() : Node("wifibot_node"),
   
   if (!this->get_parameter("port", dev))
   {
-    dev = "/dev/ttyS0";
+    dev = "/dev/ttyUSB0";
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"),"No device port set. Assuming : %s", dev.c_str());
   }
 
