@@ -1,0 +1,15 @@
+/home/greg/ros2_ws/install/arbotix_firmware/share/ament_index/resource_index/package_run_dependencies/arbotix_firmware
+/home/greg/ros2_ws/install/arbotix_firmware/share/ament_index/resource_index/parent_prefix_path/arbotix_firmware
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/environment/ament_prefix_path.sh
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/environment/ament_prefix_path.dsv
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/environment/path.sh
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/environment/path.dsv
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/local_setup.bash
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/local_setup.sh
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/local_setup.zsh
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/local_setup.dsv
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.dsv
+/home/greg/ros2_ws/install/arbotix_firmware/share/ament_index/resource_index/packages/arbotix_firmware
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/cmake/arbotix_firmwareConfig.cmake
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/cmake/arbotix_firmwareConfig-version.cmake
+/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.xml

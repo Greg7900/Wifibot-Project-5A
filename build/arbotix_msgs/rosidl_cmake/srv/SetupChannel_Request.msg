@@ -1,0 +1,5 @@
+# message to setup an IO channel
+string topic_name
+uint8 pin
+uint8 value
+uint8 rate

@@ -1,0 +1,23 @@
+<package format="3">
+  <name>arbotix</name>
+  <version>0.11.0</version>
+  <description>ArbotiX Drivers</description>
+  <author>Michael Ferguson</author>
+  <maintainer email="mike@vanadiumlabs.com">Michael Ferguson</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/arbotix</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>arbotix_msgs</depend>
+  <depend>arbotix_python</depend>
+  <depend>arbotix_sensors</depend>
+  <depend>arbotix_controllers</depend>
+  <depend>arbotix_firmware</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+

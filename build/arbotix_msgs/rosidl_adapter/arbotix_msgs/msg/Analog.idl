@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from arbotix_msgs/msg/Analog.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module arbotix_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Reading from a single analog IO pin.")
+    struct Analog {
+      std_msgs::msg::Header header;
+
+      uint16 value;
+    };
+  };
+};

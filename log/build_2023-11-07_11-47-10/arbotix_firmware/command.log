@@ -1,0 +1,6 @@
+Invoking command in '/home/greg/ros2_ws/build/arbotix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_firmware -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_firmware
+Invoked command in '/home/greg/ros2_ws/build/arbotix_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_firmware -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_firmware
+Invoking command in '/home/greg/ros2_ws/build/arbotix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_firmware -- -j16 -l16
+Invoked command in '/home/greg/ros2_ws/build/arbotix_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_firmware -- -j16 -l16
+Invoking command in '/home/greg/ros2_ws/build/arbotix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_firmware
+Invoked command in '/home/greg/ros2_ws/build/arbotix_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_firmware

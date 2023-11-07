@@ -1,0 +1,35 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/greg/ros2_ws/build/arbotix_sensors
+-- Install configuration: ""
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/ament_index/resource_index/package_run_dependencies/arbotix_sensors
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/ament_index/resource_index/parent_prefix_path/arbotix_sensors
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/environment/ament_prefix_path.sh
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/environment/ament_prefix_path.dsv
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/environment/path.sh
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/environment/path.dsv
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/local_setup.bash
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/local_setup.sh
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/local_setup.zsh
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/local_setup.dsv
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.dsv
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/ament_index/resource_index/packages/arbotix_sensors
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/cmake/arbotix_sensorsConfig.cmake
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/cmake/arbotix_sensorsConfig-version.cmake
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.xml
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/bin/arbotix_sensors/ir_ranger.py
+-- Installing: /home/greg/ros2_ws/install/arbotix_sensors/bin/arbotix_sensors/max_sonar.py

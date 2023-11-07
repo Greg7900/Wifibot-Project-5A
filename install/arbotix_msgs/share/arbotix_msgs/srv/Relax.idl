@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from arbotix_msgs/srv/Relax.srv
+// generated code does not contain a copyright notice
+
+
+module arbotix_msgs {
+  module srv {
+    struct Relax_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct Relax_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

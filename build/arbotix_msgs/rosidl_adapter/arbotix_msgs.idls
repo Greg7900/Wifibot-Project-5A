@@ -1,0 +1,6 @@
+/home/greg/ros2_ws/build/arbotix_msgs/rosidl_adapter/arbotix_msgs:msg/Analog.idl
+/home/greg/ros2_ws/build/arbotix_msgs/rosidl_adapter/arbotix_msgs:msg/Digital.idl
+/home/greg/ros2_ws/build/arbotix_msgs/rosidl_adapter/arbotix_msgs:srv/Enable.idl
+/home/greg/ros2_ws/build/arbotix_msgs/rosidl_adapter/arbotix_msgs:srv/Relax.idl
+/home/greg/ros2_ws/build/arbotix_msgs/rosidl_adapter/arbotix_msgs:srv/SetupChannel.idl
+/home/greg/ros2_ws/build/arbotix_msgs/rosidl_adapter/arbotix_msgs:srv/SetSpeed.idl

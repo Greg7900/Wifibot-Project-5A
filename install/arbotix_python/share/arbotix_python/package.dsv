@@ -1,0 +1,5 @@
+source;share/arbotix_python/local_setup.bash
+source;share/arbotix_python/local_setup.dsv
+source;share/arbotix_python/local_setup.ps1
+source;share/arbotix_python/local_setup.sh
+source;share/arbotix_python/local_setup.zsh

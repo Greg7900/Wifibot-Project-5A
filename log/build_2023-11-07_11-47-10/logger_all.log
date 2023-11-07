@@ -1,0 +1,781 @@
+[0.482s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.483s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f791e78efb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f791e9b56c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f791e9b56c0>>)
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.510s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/greg/ros2_ws'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix) by extension 'ignore'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix) by extensions ['colcon_meta']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arbotix' with type 'ros.ament_cmake' and name 'arbotix'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_controllers) by extension 'ignore'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_controllers) by extension 'ignore_ament_install'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_controllers) by extensions ['colcon_pkg']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_controllers) by extension 'colcon_pkg'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_controllers) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_controllers) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_controllers) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_controllers) by extension 'ros'
+[0.522s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arbotix_controllers' with type 'ros.ament_cmake' and name 'arbotix_controllers'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_firmware) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_firmware) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_firmware) by extensions ['colcon_pkg']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_firmware) by extension 'colcon_pkg'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_firmware) by extensions ['colcon_meta']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_firmware) by extension 'colcon_meta'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_firmware) by extensions ['ros']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_firmware) by extension 'ros'
+[0.522s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arbotix_firmware' with type 'ros.ament_cmake' and name 'arbotix_firmware'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_msgs) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_msgs) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_msgs) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_msgs) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_msgs) by extensions ['colcon_meta']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_msgs) by extension 'colcon_meta'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_msgs) by extensions ['ros']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_msgs) by extension 'ros'
+[0.523s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arbotix_msgs' with type 'ros.ament_cmake' and name 'arbotix_msgs'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_python) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_python) by extension 'ignore'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_python) by extension 'ignore_ament_install'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_python) by extensions ['colcon_pkg']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_python) by extension 'colcon_pkg'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_python) by extensions ['colcon_meta']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_python) by extension 'colcon_meta'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_python) by extensions ['ros']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_python) by extension 'ros'
+[0.524s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arbotix_python' with type 'ros.ament_cmake' and name 'arbotix_python'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_sensors) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_sensors) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_sensors) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_sensors) by extension 'colcon_pkg'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_sensors) by extensions ['colcon_meta']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_sensors) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_sensors) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/arbotix_sensors) by extension 'ros'
+[0.525s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arbotix_sensors' with type 'ros.ament_cmake' and name 'arbotix_sensors'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['ros']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'ros'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['cmake', 'python']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'cmake'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'python'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extensions ['python_setup_py']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist) by extension 'python_setup_py'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'ros'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['cmake', 'python']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'cmake'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'python'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extensions ['python_setup_py']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/demo) by extension 'python_setup_py'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extensions ['colcon_meta']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy2twist/joy2twist) by extension 'ros'
+[0.526s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy2twist/joy2twist' with type 'ros.ament_cmake' and name 'joy2twist'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extension 'colcon_pkg'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lib_wifibot) by extension 'ros'
+[0.527s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lib_wifibot' with type 'ros.ament_cmake' and name 'lib_wifibot'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extension 'colcon_pkg'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/roswifibot) by extension 'ros'
+[0.528s] DEBUG:colcon.colcon_core.package_identification:Package 'src/roswifibot' with type 'ros.ament_cmake' and name 'roswifibot'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wifibot_msgs) by extension 'ros'
+[0.529s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wifibot_msgs' with type 'ros.ament_cmake' and name 'wifibot_msgs'
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.574s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.575s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/greg/ros2_ws/install/arbotix' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/greg/ros2_ws/install/arbotix_sensors' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/greg/ros2_ws/install/arbotix_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/greg/ros2_ws/install/arbotix_firmware' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/greg/ros2_ws/install/arbotix_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/greg/ros2_ws/install/roswifibot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/greg/ros2_ws/install/wifibot_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/greg/ros2_ws/install/lib_wifibot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/greg/ros2_ws/install/joy2twist' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/greg/ros2_ws/install/arbotix' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/greg/ros2_ws/install/arbotix_sensors' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/greg/ros2_ws/install/arbotix_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/greg/ros2_ws/install/arbotix_firmware' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/greg/ros2_ws/install/arbotix_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.584s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/greg/ros2_ws/install/roswifibot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.585s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/greg/ros2_ws/install/wifibot_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.585s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/greg/ros2_ws/install/lib_wifibot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.585s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/greg/ros2_ws/install/joy2twist' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.592s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/greg/ros2_ws/install
+[0.600s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 226 installed packages in /opt/ros/humble
+[0.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arbotix_firmware' build argument 'cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arbotix_firmware' build argument 'cmake_target' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arbotix_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arbotix_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arbotix_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arbotix_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'arbotix_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'arbotix_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'arbotix_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.650s] DEBUG:colcon.colcon_core.verb:Building package 'arbotix_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/arbotix_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/arbotix_firmware', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/arbotix_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'arbotix_msgs' build argument 'cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'arbotix_msgs' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'arbotix_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'arbotix_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'arbotix_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'arbotix_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'arbotix_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'arbotix_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'arbotix_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.657s] DEBUG:colcon.colcon_core.verb:Building package 'arbotix_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/arbotix_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/arbotix_msgs', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/arbotix_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_target' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_clean_cache' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_clean_first' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'cmake_force_configure' from command line to 'False'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'ament_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'catkin_cmake_args' from command line to 'None'
+[0.664s] Level 5:colcon.colcon_core.verb:set package 'joy2twist' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.664s] DEBUG:colcon.colcon_core.verb:Building package 'joy2twist' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/joy2twist', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/joy2twist', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/joy2twist/joy2twist', 'symlink_install': False, 'test_result_base': None}
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_args' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_target' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_clean_first' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'cmake_force_configure' from command line to 'False'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'ament_cmake_args' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.671s] Level 5:colcon.colcon_core.verb:set package 'lib_wifibot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.671s] DEBUG:colcon.colcon_core.verb:Building package 'lib_wifibot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/lib_wifibot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/lib_wifibot', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/lib_wifibot', 'symlink_install': False, 'test_result_base': None}
+[0.677s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'wifibot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.678s] DEBUG:colcon.colcon_core.verb:Building package 'wifibot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/wifibot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/wifibot_msgs', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/wifibot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'arbotix_python' build argument 'cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'arbotix_python' build argument 'cmake_target' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'arbotix_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'arbotix_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'arbotix_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'arbotix_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'arbotix_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'arbotix_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.684s] Level 5:colcon.colcon_core.verb:set package 'arbotix_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.684s] DEBUG:colcon.colcon_core.verb:Building package 'arbotix_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/arbotix_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/arbotix_python', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/arbotix_python', 'symlink_install': False, 'test_result_base': None}
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_target' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_clean_first' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'cmake_force_configure' from command line to 'False'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'ament_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.691s] Level 5:colcon.colcon_core.verb:set package 'roswifibot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.691s] DEBUG:colcon.colcon_core.verb:Building package 'roswifibot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/roswifibot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/roswifibot', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/roswifibot', 'symlink_install': False, 'test_result_base': None}
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'arbotix_controllers' build argument 'cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'arbotix_controllers' build argument 'cmake_target' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'arbotix_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'arbotix_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'arbotix_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'arbotix_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'arbotix_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'arbotix_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'arbotix_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.698s] DEBUG:colcon.colcon_core.verb:Building package 'arbotix_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/arbotix_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/arbotix_controllers', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/arbotix_controllers', 'symlink_install': False, 'test_result_base': None}
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'arbotix_sensors' build argument 'cmake_args' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'arbotix_sensors' build argument 'cmake_target' from command line to 'None'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'arbotix_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'arbotix_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'arbotix_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'arbotix_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.704s] Level 5:colcon.colcon_core.verb:set package 'arbotix_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'arbotix_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.705s] Level 5:colcon.colcon_core.verb:set package 'arbotix_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.705s] DEBUG:colcon.colcon_core.verb:Building package 'arbotix_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/arbotix_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/arbotix_sensors', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/arbotix_sensors', 'symlink_install': False, 'test_result_base': None}
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'arbotix' build argument 'cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'arbotix' build argument 'cmake_target' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'arbotix' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'arbotix' build argument 'cmake_clean_cache' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'arbotix' build argument 'cmake_clean_first' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'arbotix' build argument 'cmake_force_configure' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'arbotix' build argument 'ament_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'arbotix' build argument 'catkin_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'arbotix' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.711s] DEBUG:colcon.colcon_core.verb:Building package 'arbotix' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/greg/ros2_ws/build/arbotix', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/greg/ros2_ws/install/arbotix', 'merge_install': False, 'path': '/home/greg/ros2_ws/src/arbotix', 'symlink_install': False, 'test_result_base': None}
+[0.717s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.725s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/arbotix_msgs' with build type 'ament_cmake'
+[0.725s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/arbotix_msgs'
+[0.732s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.757s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/arbotix_firmware' with build type 'ament_cmake'
+[0.758s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/arbotix_firmware'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.790s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/lib_wifibot' with build type 'ament_cmake'
+[0.790s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/lib_wifibot'
+[0.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.821s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/wifibot_msgs' with build type 'ament_cmake'
+[0.822s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/wifibot_msgs'
+[0.829s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.829s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.854s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/joy2twist/joy2twist' with build type 'ament_cmake'
+[0.855s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/joy2twist/joy2twist'
+[0.862s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.862s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_msgs -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_msgs
+[0.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_firmware -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_firmware
+[0.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/lib_wifibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/lib_wifibot -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/lib_wifibot
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/wifibot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/wifibot_msgs -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/wifibot_msgs
+[0.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/joy2twist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/joy2twist/joy2twist -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/joy2twist
+[1.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_firmware -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_firmware
+[1.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_firmware -- -j16 -l16
+[1.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_firmware -- -j16 -l16
+[1.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_firmware
+[1.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix_firmware)
+[1.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/lib_wifibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/lib_wifibot -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/lib_wifibot
+[1.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/lib_wifibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/lib_wifibot -- -j16 -l16
+[1.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_firmware
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware' for CMake module files
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware' for CMake config files
+[1.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix_firmware', 'cmake_prefix_path')
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/hook/cmake_prefix_path.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/hook/cmake_prefix_path.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/hook/cmake_prefix_path.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware/lib/pkgconfig/arbotix_firmware.pc'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware/lib/python3.10/site-packages'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware/bin'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.ps1'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.dsv'
+[1.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.sh'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.bash'
+[1.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.zsh'
+[1.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix_firmware/share/colcon-core/packages/arbotix_firmware)
+[1.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix_firmware)
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware' for CMake module files
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware' for CMake config files
+[1.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix_firmware', 'cmake_prefix_path')
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/hook/cmake_prefix_path.ps1'
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/hook/cmake_prefix_path.dsv'
+[1.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/hook/cmake_prefix_path.sh'
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware/bin'
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware/lib/pkgconfig/arbotix_firmware.pc'
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware/lib/python3.10/site-packages'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_firmware/bin'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.ps1'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.dsv'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.sh'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.bash'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_firmware/share/arbotix_firmware/package.zsh'
+[1.558s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix_firmware/share/colcon-core/packages/arbotix_firmware)
+[1.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/lib_wifibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/lib_wifibot -- -j16 -l16
+[1.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/lib_wifibot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/lib_wifibot
+[1.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lib_wifibot)
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/lib_wifibot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/lib_wifibot
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot' for CMake module files
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot' for CMake config files
+[1.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('lib_wifibot', 'cmake_prefix_path')
+[1.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.dsv'
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.sh'
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib'
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/bin'
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib/pkgconfig/lib_wifibot.pc'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib/python3.10/site-packages'
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/bin'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.ps1'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.sh'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.bash'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.zsh'
+[1.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/lib_wifibot/share/colcon-core/packages/lib_wifibot)
+[1.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lib_wifibot)
+[1.867s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot' for CMake module files
+[1.868s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot' for CMake config files
+[1.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('lib_wifibot', 'cmake_prefix_path')
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.ps1'
+[1.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.dsv'
+[1.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/hook/cmake_prefix_path.sh'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/bin'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib/pkgconfig/lib_wifibot.pc'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/lib/python3.10/site-packages'
+[1.879s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/lib_wifibot/bin'
+[1.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.ps1'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.dsv'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.sh'
+[1.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.bash'
+[1.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/lib_wifibot/share/lib_wifibot/package.zsh'
+[1.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/lib_wifibot/share/colcon-core/packages/lib_wifibot)
+[1.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/joy2twist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/joy2twist/joy2twist -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/joy2twist
+[2.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/joy2twist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/joy2twist -- -j16 -l16
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/wifibot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/wifibot_msgs -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/wifibot_msgs
+[2.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/wifibot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/wifibot_msgs -- -j16 -l16
+[2.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_msgs -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_msgs
+[2.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_msgs -- -j16 -l16
+[4.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/wifibot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/wifibot_msgs -- -j16 -l16
+[4.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/wifibot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/wifibot_msgs
+[4.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wifibot_msgs)
+[4.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/wifibot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/wifibot_msgs
+[4.793s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs' for CMake module files
+[4.793s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs' for CMake config files
+[4.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('wifibot_msgs', 'cmake_prefix_path')
+[4.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.ps1'
+[4.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.dsv'
+[4.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.sh'
+[4.804s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib'
+[4.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('wifibot_msgs', 'ld_library_path_lib')
+[4.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.ps1'
+[4.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.dsv'
+[4.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.sh'
+[4.813s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/bin'
+[4.813s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib/pkgconfig/wifibot_msgs.pc'
+[4.813s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib/python3.10/site-packages'
+[4.813s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/bin'
+[4.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.ps1'
+[4.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.dsv'
+[4.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.sh'
+[4.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.bash'
+[4.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.zsh'
+[4.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/wifibot_msgs/share/colcon-core/packages/wifibot_msgs)
+[4.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wifibot_msgs)
+[4.925s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs' for CMake module files
+[4.926s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs' for CMake config files
+[4.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('wifibot_msgs', 'cmake_prefix_path')
+[4.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.ps1'
+[4.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.dsv'
+[4.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/cmake_prefix_path.sh'
+[4.935s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib'
+[4.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('wifibot_msgs', 'ld_library_path_lib')
+[4.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.ps1'
+[4.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.dsv'
+[4.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/hook/ld_library_path_lib.sh'
+[4.944s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/bin'
+[4.944s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib/pkgconfig/wifibot_msgs.pc'
+[4.944s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/lib/python3.10/site-packages'
+[4.945s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/wifibot_msgs/bin'
+[4.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.ps1'
+[4.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.dsv'
+[4.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.sh'
+[4.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.bash'
+[4.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/wifibot_msgs/share/wifibot_msgs/package.zsh'
+[4.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/wifibot_msgs/share/colcon-core/packages/wifibot_msgs)
+[4.955s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/roswifibot' with build type 'ament_cmake'
+[4.955s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/roswifibot'
+[4.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/roswifibot': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble LD_LIBRARY_PATH=/home/greg/ros2_ws/install/wifibot_msgs/lib:/home/greg/ros2_ws/install/arbotix_msgs/lib:/home/greg/ros2_ws/install/lib_wifibot/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/greg/ros2_ws/src/roswifibot -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/roswifibot
+[5.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_msgs -- -j16 -l16
+[5.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_msgs
+[5.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix_msgs)
+[5.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_msgs
+[5.936s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs' for CMake module files
+[5.937s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs' for CMake config files
+[5.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix_msgs', 'cmake_prefix_path')
+[5.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/cmake_prefix_path.ps1'
+[5.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/cmake_prefix_path.dsv'
+[5.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/cmake_prefix_path.sh'
+[5.946s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs/lib'
+[5.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix_msgs', 'ld_library_path_lib')
+[5.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/ld_library_path_lib.ps1'
+[5.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/ld_library_path_lib.dsv'
+[5.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/ld_library_path_lib.sh'
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs/bin'
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs/lib/pkgconfig/arbotix_msgs.pc'
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs/lib/python3.10/site-packages'
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs/bin'
+[5.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.ps1'
+[5.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.dsv'
+[5.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.sh'
+[5.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.bash'
+[5.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.zsh'
+[5.963s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix_msgs/share/colcon-core/packages/arbotix_msgs)
+[6.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix_msgs)
+[6.227s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs' for CMake module files
+[6.228s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs' for CMake config files
+[6.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix_msgs', 'cmake_prefix_path')
+[6.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/cmake_prefix_path.ps1'
+[6.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/cmake_prefix_path.dsv'
+[6.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/cmake_prefix_path.sh'
+[6.237s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs/lib'
+[6.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix_msgs', 'ld_library_path_lib')
+[6.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/ld_library_path_lib.ps1'
+[6.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/ld_library_path_lib.dsv'
+[6.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/hook/ld_library_path_lib.sh'
+[6.245s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs/bin'
+[6.245s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs/lib/pkgconfig/arbotix_msgs.pc'
+[6.245s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs/lib/python3.10/site-packages'
+[6.245s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_msgs/bin'
+[6.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.ps1'
+[6.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.dsv'
+[6.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.sh'
+[6.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.bash'
+[6.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.zsh'
+[6.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix_msgs/share/colcon-core/packages/arbotix_msgs)
+[6.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/arbotix_python' with build type 'ament_cmake'
+[6.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/arbotix_python'
+[6.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_python': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_python -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_python
+[6.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/roswifibot' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble LD_LIBRARY_PATH=/home/greg/ros2_ws/install/wifibot_msgs/lib:/home/greg/ros2_ws/install/arbotix_msgs/lib:/home/greg/ros2_ws/install/lib_wifibot/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/greg/ros2_ws/src/roswifibot -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/roswifibot
+[6.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/roswifibot': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble LD_LIBRARY_PATH=/home/greg/ros2_ws/install/wifibot_msgs/lib:/home/greg/ros2_ws/install/arbotix_msgs/lib:/home/greg/ros2_ws/install/lib_wifibot/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/greg/ros2_ws/build/roswifibot -- -j16 -l16
+[7.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_python' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_python -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_python
+[7.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_python': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_python -- -j16 -l16
+[7.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_python' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_python -- -j16 -l16
+[7.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_python': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_python
+[7.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix_python)
+[7.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_python' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_python
+[7.589s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python' for CMake module files
+[7.589s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python' for CMake config files
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python/bin'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python/lib/pkgconfig/arbotix_python.pc'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python/lib/python3.10/site-packages'
+[7.590s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python/bin'
+[7.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_python/share/arbotix_python/package.ps1'
+[7.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix_python/share/arbotix_python/package.dsv'
+[7.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_python/share/arbotix_python/package.sh'
+[7.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_python/share/arbotix_python/package.bash'
+[7.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_python/share/arbotix_python/package.zsh'
+[7.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix_python/share/colcon-core/packages/arbotix_python)
+[7.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix_python)
+[7.645s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python' for CMake module files
+[7.645s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python' for CMake config files
+[7.645s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python/bin'
+[7.646s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python/lib/pkgconfig/arbotix_python.pc'
+[7.646s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python/lib/python3.10/site-packages'
+[7.646s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_python/bin'
+[7.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_python/share/arbotix_python/package.ps1'
+[7.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix_python/share/arbotix_python/package.dsv'
+[7.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_python/share/arbotix_python/package.sh'
+[7.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_python/share/arbotix_python/package.bash'
+[7.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_python/share/arbotix_python/package.zsh'
+[7.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix_python/share/colcon-core/packages/arbotix_python)
+[7.656s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/arbotix_controllers' with build type 'ament_cmake'
+[7.656s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/arbotix_controllers'
+[7.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.691s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/arbotix_sensors' with build type 'ament_cmake'
+[7.692s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/arbotix_sensors'
+[7.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_controllers': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_controllers -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_controllers
+[7.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_sensors': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_sensors -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_sensors
+[8.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_controllers' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_controllers -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_controllers
+[8.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_controllers': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_controllers -- -j16 -l16
+[8.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_sensors' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix_sensors -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix_sensors
+[8.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_sensors': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_sensors -- -j16 -l16
+[8.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_controllers' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_controllers -- -j16 -l16
+[8.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_sensors' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix_sensors -- -j16 -l16
+[8.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_controllers': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_controllers
+[8.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix_controllers)
+[8.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_controllers' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_controllers
+[8.470s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers' for CMake module files
+[8.471s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers' for CMake config files
+[8.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix_controllers', 'cmake_prefix_path')
+[8.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/hook/cmake_prefix_path.ps1'
+[8.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/hook/cmake_prefix_path.dsv'
+[8.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/hook/cmake_prefix_path.sh'
+[8.480s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers/bin'
+[8.480s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers/lib/pkgconfig/arbotix_controllers.pc'
+[8.480s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers/lib/python3.10/site-packages'
+[8.480s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers/bin'
+[8.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/package.ps1'
+[8.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/package.dsv'
+[8.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/package.sh'
+[8.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/package.bash'
+[8.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/package.zsh'
+[8.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix_controllers/share/colcon-core/packages/arbotix_controllers)
+[8.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix_sensors': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_sensors
+[8.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix_sensors)
+[8.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix_sensors' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix_sensors
+[8.513s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors' for CMake module files
+[8.513s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors' for CMake config files
+[8.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix_sensors', 'cmake_prefix_path')
+[8.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/hook/cmake_prefix_path.ps1'
+[8.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/hook/cmake_prefix_path.dsv'
+[8.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/hook/cmake_prefix_path.sh'
+[8.522s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors/bin'
+[8.522s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors/lib/pkgconfig/arbotix_sensors.pc'
+[8.523s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors/lib/python3.10/site-packages'
+[8.523s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors/bin'
+[8.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.ps1'
+[8.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.dsv'
+[8.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.sh'
+[8.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.bash'
+[8.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.zsh'
+[8.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix_sensors/share/colcon-core/packages/arbotix_sensors)
+[8.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix_controllers)
+[8.549s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers' for CMake module files
+[8.549s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers' for CMake config files
+[8.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix_controllers', 'cmake_prefix_path')
+[8.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/hook/cmake_prefix_path.ps1'
+[8.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/hook/cmake_prefix_path.dsv'
+[8.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/hook/cmake_prefix_path.sh'
+[8.559s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers/bin'
+[8.559s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers/lib/pkgconfig/arbotix_controllers.pc'
+[8.559s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers/lib/python3.10/site-packages'
+[8.559s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_controllers/bin'
+[8.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/package.ps1'
+[8.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/package.dsv'
+[8.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/package.sh'
+[8.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/package.bash'
+[8.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_controllers/share/arbotix_controllers/package.zsh'
+[8.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix_controllers/share/colcon-core/packages/arbotix_controllers)
+[8.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix_sensors)
+[8.590s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors' for CMake module files
+[8.590s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors' for CMake config files
+[8.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix_sensors', 'cmake_prefix_path')
+[8.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/hook/cmake_prefix_path.ps1'
+[8.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/hook/cmake_prefix_path.dsv'
+[8.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/hook/cmake_prefix_path.sh'
+[8.600s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors/bin'
+[8.600s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors/lib/pkgconfig/arbotix_sensors.pc'
+[8.600s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors/lib/python3.10/site-packages'
+[8.600s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix_sensors/bin'
+[8.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.ps1'
+[8.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.dsv'
+[8.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.sh'
+[8.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.bash'
+[8.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix_sensors/share/arbotix_sensors/package.zsh'
+[8.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix_sensors/share/colcon-core/packages/arbotix_sensors)
+[8.611s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/greg/ros2_ws/src/arbotix' with build type 'ament_cmake'
+[8.612s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/greg/ros2_ws/src/arbotix'
+[8.621s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.621s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix
+[9.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake /home/greg/ros2_ws/src/arbotix -DCMAKE_INSTALL_PREFIX=/home/greg/ros2_ws/install/arbotix
+[9.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix -- -j16 -l16
+[9.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/arbotix -- -j16 -l16
+[9.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/arbotix': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix
+[9.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix)
+[9.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/arbotix' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/arbotix
+[9.430s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix' for CMake module files
+[9.430s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix' for CMake config files
+[9.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix', 'cmake_prefix_path')
+[9.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix/share/arbotix/hook/cmake_prefix_path.ps1'
+[9.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix/share/arbotix/hook/cmake_prefix_path.dsv'
+[9.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix/share/arbotix/hook/cmake_prefix_path.sh'
+[9.439s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix/bin'
+[9.439s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix/lib/pkgconfig/arbotix.pc'
+[9.440s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix/lib/python3.10/site-packages'
+[9.440s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix/bin'
+[9.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix/share/arbotix/package.ps1'
+[9.448s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix/share/arbotix/package.dsv'
+[9.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix/share/arbotix/package.sh'
+[9.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix/share/arbotix/package.bash'
+[9.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix/share/arbotix/package.zsh'
+[9.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix/share/colcon-core/packages/arbotix)
+[9.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arbotix)
+[9.497s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix' for CMake module files
+[9.497s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix' for CMake config files
+[9.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('arbotix', 'cmake_prefix_path')
+[9.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix/share/arbotix/hook/cmake_prefix_path.ps1'
+[9.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/arbotix/share/arbotix/hook/cmake_prefix_path.dsv'
+[9.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/arbotix/share/arbotix/hook/cmake_prefix_path.sh'
+[9.506s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix/bin'
+[9.506s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix/lib/pkgconfig/arbotix.pc'
+[9.507s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix/lib/python3.10/site-packages'
+[9.507s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/arbotix/bin'
+[9.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix/share/arbotix/package.ps1'
+[9.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/arbotix/share/arbotix/package.dsv'
+[9.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix/share/arbotix/package.sh'
+[9.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix/share/arbotix/package.bash'
+[9.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/arbotix/share/arbotix/package.zsh'
+[9.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/arbotix/share/colcon-core/packages/arbotix)
+[10.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/joy2twist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/greg/ros2_ws/build/joy2twist -- -j16 -l16
+[10.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/joy2twist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/joy2twist
+[10.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy2twist)
+[10.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/joy2twist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/greg/ros2_ws/build/joy2twist
+[10.394s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist' for CMake module files
+[10.394s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist' for CMake config files
+[10.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy2twist', 'cmake_prefix_path')
+[10.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.ps1'
+[10.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.dsv'
+[10.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.sh'
+[10.402s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib'
+[10.402s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/bin'
+[10.402s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib/pkgconfig/joy2twist.pc'
+[10.403s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib/python3.10/site-packages'
+[10.403s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/bin'
+[10.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.ps1'
+[10.410s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.dsv'
+[10.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.sh'
+[10.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.bash'
+[10.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.zsh'
+[10.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/joy2twist/share/colcon-core/packages/joy2twist)
+[10.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy2twist)
+[10.458s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist' for CMake module files
+[10.458s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist' for CMake config files
+[10.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy2twist', 'cmake_prefix_path')
+[10.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.ps1'
+[10.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.dsv'
+[10.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/hook/cmake_prefix_path.sh'
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib'
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/bin'
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib/pkgconfig/joy2twist.pc'
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/lib/python3.10/site-packages'
+[10.467s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/joy2twist/bin'
+[10.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.ps1'
+[10.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.dsv'
+[10.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.sh'
+[10.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.bash'
+[10.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/joy2twist/share/joy2twist/package.zsh'
+[10.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/joy2twist/share/colcon-core/packages/joy2twist)
+[11.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/roswifibot' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble LD_LIBRARY_PATH=/home/greg/ros2_ws/install/wifibot_msgs/lib:/home/greg/ros2_ws/install/arbotix_msgs/lib:/home/greg/ros2_ws/install/lib_wifibot/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/greg/ros2_ws/build/roswifibot -- -j16 -l16
+[11.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/greg/ros2_ws/build/roswifibot': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble LD_LIBRARY_PATH=/home/greg/ros2_ws/install/wifibot_msgs/lib:/home/greg/ros2_ws/install/arbotix_msgs/lib:/home/greg/ros2_ws/install/lib_wifibot/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/greg/ros2_ws/build/roswifibot
+[11.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roswifibot)
+[11.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/greg/ros2_ws/build/roswifibot' returned '0': CMAKE_PREFIX_PATH=/home/greg/ros2_ws/install/wifibot_msgs:/home/greg/ros2_ws/install/lib_wifibot:/home/greg/ros2_ws/install/arbotix:/home/greg/ros2_ws/install/arbotix_sensors:/home/greg/ros2_ws/install/arbotix_controllers:/home/greg/ros2_ws/install/arbotix_firmware:/home/greg/ros2_ws/install/arbotix_msgs:/home/greg/ros2_ws/install/roswifibot:/home/greg/ros2_ws/install/joy2twist:/opt/ros/humble LD_LIBRARY_PATH=/home/greg/ros2_ws/install/wifibot_msgs/lib:/home/greg/ros2_ws/install/arbotix_msgs/lib:/home/greg/ros2_ws/install/lib_wifibot/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/greg/ros2_ws/build/roswifibot
+[11.256s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot' for CMake module files
+[11.256s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot' for CMake config files
+[11.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('roswifibot', 'cmake_prefix_path')
+[11.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/hook/cmake_prefix_path.ps1'
+[11.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/hook/cmake_prefix_path.dsv'
+[11.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/hook/cmake_prefix_path.sh'
+[11.265s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/lib'
+[11.265s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/bin'
+[11.265s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/lib/pkgconfig/roswifibot.pc'
+[11.265s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/lib/python3.10/site-packages'
+[11.265s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/bin'
+[11.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.ps1'
+[11.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.dsv'
+[11.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.sh'
+[11.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.bash'
+[11.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.zsh'
+[11.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/roswifibot/share/colcon-core/packages/roswifibot)
+[11.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(roswifibot)
+[11.320s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot' for CMake module files
+[11.321s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot' for CMake config files
+[11.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('roswifibot', 'cmake_prefix_path')
+[11.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/hook/cmake_prefix_path.ps1'
+[11.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/hook/cmake_prefix_path.dsv'
+[11.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/hook/cmake_prefix_path.sh'
+[11.330s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/lib'
+[11.330s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/bin'
+[11.330s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/lib/pkgconfig/roswifibot.pc'
+[11.330s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/lib/python3.10/site-packages'
+[11.331s] Level 1:colcon.colcon_core.environment:checking '/home/greg/ros2_ws/install/roswifibot/bin'
+[11.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.ps1'
+[11.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.dsv'
+[11.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.sh'
+[11.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.bash'
+[11.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/greg/ros2_ws/install/roswifibot/share/roswifibot/package.zsh'
+[11.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/greg/ros2_ws/install/roswifibot/share/colcon-core/packages/roswifibot)
+[11.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.341s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.364s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.373s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/greg/ros2_ws/install/local_setup.ps1'
+[11.382s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/greg/ros2_ws/install/_local_setup_util_ps1.py'
+[11.382s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/greg/ros2_ws/install/setup.ps1'
+[11.391s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/greg/ros2_ws/install/local_setup.sh'
+[11.392s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/greg/ros2_ws/install/_local_setup_util_sh.py'
+[11.392s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/greg/ros2_ws/install/setup.sh'
+[11.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/greg/ros2_ws/install/local_setup.bash'
+[11.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/greg/ros2_ws/install/setup.bash'
+[11.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/greg/ros2_ws/install/local_setup.zsh'
+[11.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/greg/ros2_ws/install/setup.zsh'

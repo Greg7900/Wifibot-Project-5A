@@ -1,0 +1,268 @@
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_generator_c[0m
+[  1%] Built target arbotix_msgs__cpp
+[ 12%] Built target arbotix_msgs__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_arbotix_msgs
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 23%] Built target arbotix_msgs__rosidl_typesupport_introspection_c
+[ 35%] Built target arbotix_msgs__rosidl_typesupport_c
+[ 46%] Built target arbotix_msgs__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target arbotix_msgs__rosidl_typesupport_introspection_cpp
+[ 69%] Built target arbotix_msgs__rosidl_typesupport_cpp
+[ 80%] Built target arbotix_msgs__rosidl_typesupport_fastrtps_c
+[ 80%] Built target arbotix_msgs
+[ 81%] Built target arbotix_msgs__py
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_generator_py[0m
+[ 91%] Built target arbotix_msgs__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target arbotix_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 94%] Built target arbotix_msgs__rosidl_typesupport_c__pyext
+[ 97%] Built target arbotix_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target arbotix_msgs__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing arbotix_msgs.egg-info/PKG-INFO
+writing dependency_links to arbotix_msgs.egg-info/dependency_links.txt
+writing top-level names to arbotix_msgs.egg-info/top_level.txt
+reading manifest file 'arbotix_msgs.egg-info/SOURCES.txt'
+writing manifest file 'arbotix_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_arbotix_msgs_egg
+-- Install configuration: ""
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/ament_index/resource_index/rosidl_interfaces/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/digital.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__struct.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__functions.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__functions.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__type_support.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__type_support.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__struct.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__functions.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__functions.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/analog.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/enable.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__functions.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__functions.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__functions.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__struct.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__struct.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__type_support.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__type_support.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__type_support.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__functions.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__functions.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__functions.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__struct.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__functions.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__functions.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__type_support.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__struct.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/setup_channel.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/set_speed.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/relax.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/environment/library_path.sh
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/environment/library_path.dsv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/lib/libarbotix_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/lib/libarbotix_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/analog.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/digital.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__builder.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__traits.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__struct.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__traits.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__builder.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__struct.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/setup_channel.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/enable.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__builder.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__struct.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__builder.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__traits.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__builder.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__traits.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__traits.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__struct.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__struct.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__builder.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__struct.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__traits.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/relax.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/set_speed.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/dds_fastrtps
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/dds_fastrtps
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/lib/libarbotix_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__type_support.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__type_support.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__type_support.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__type_support.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__type_support.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__type_support.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/lib/libarbotix_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/lib/libarbotix_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/digital__type_support.cpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/msg/detail/analog__type_support.cpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__type_support.cpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__type_support.cpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/enable__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/relax__type_support.cpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/set_speed__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__type_support.cpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/include/arbotix_msgs/arbotix_msgs/srv/detail/setup_channel__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/lib/libarbotix_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/lib/libarbotix_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/environment/pythonpath.sh
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/environment/pythonpath.dsv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs-0.0.0-py3.10.egg-info
+-- Installing: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/_arbotix_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/arbotix_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/arbotix_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/_arbotix_msgs_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/_arbotix_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/arbotix_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/libarbotix_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/msg/_digital_s.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/msg/_analog.py
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/msg/_analog_s.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/msg/_digital.py
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/msg/__init__.py
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv/_set_speed.py
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv/_set_speed_s.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv/_setup_channel_s.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv/_setup_channel.py
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv/_enable_s.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv/_relax.py
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv/_relax_s.c
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv/_enable.py
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv/__init__.py
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/__init__.py
+Listing '/home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs'...
+Listing '/home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/msg'...
+Listing '/home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/srv'...
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/arbotix_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/arbotix_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/local/lib/python3.10/dist-packages/arbotix_msgs/arbotix_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/lib/libarbotix_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/msg/Analog.idl
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/msg/Digital.idl
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/Enable.idl
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/Relax.idl
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/SetupChannel.idl
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/SetSpeed.idl
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/msg/Analog.msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/msg/Digital.msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/Enable.srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/Enable_Request.msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/Enable_Response.msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/Relax.srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/Relax_Request.msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/Relax_Response.msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/SetupChannel.srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/SetupChannel_Request.msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/SetupChannel_Response.msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/SetSpeed.srv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/SetSpeed_Request.msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/srv/SetSpeed_Response.msg
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/ament_index/resource_index/package_run_dependencies/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/ament_index/resource_index/parent_prefix_path/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/environment/path.sh
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/environment/path.dsv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/local_setup.bash
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/local_setup.sh
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/local_setup.zsh
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/local_setup.dsv
+-- Installing: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.dsv
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/ament_index/resource_index/packages/arbotix_msgs
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/export_arbotix_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/export_arbotix_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/export_arbotix_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/export_arbotix_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/export_arbotix_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/export_arbotix_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/export_arbotix_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/arbotix_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/arbotix_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/arbotix_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/arbotix_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/arbotix_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/arbotix_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/arbotix_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/arbotix_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/export_arbotix_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/export_arbotix_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/arbotix_msgsConfig.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/cmake/arbotix_msgsConfig-version.cmake
+-- Up-to-date: /home/greg/ros2_ws/install/arbotix_msgs/share/arbotix_msgs/package.xml
