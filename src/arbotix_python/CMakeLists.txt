@@ -14,3 +14,4 @@ install(DIRECTORY demos
 install(PROGRAMS bin/arbotix_driver
   DESTINATION bin/${PROJECT_NAME}/
 )
+ament_package()
