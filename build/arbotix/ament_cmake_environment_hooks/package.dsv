@@ -1,4 +1,0 @@
-source;share/arbotix/local_setup.bash
-source;share/arbotix/local_setup.dsv
-source;share/arbotix/local_setup.sh
-source;share/arbotix/local_setup.zsh

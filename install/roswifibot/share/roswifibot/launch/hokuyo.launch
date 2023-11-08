@@ -1,9 +1,0 @@
-<launch>
-<arg name="robot"/>
-<group ns="$(arg robot)">
-  <node pkg="roswifibot" type="hokuyo_getID_then_driver.sh" name="hokuyo_node" output="screen"
-        respawn="true"/>
-  <node pkg="tf" type="static_transform_publisher" name="laser2base_broadcaster" output="screen"
-        args="0.2 0 0.15  0 0 0  /$(arg robot)_base_frame /$(arg robot)_laser 100" />
-</group>
-</launch>

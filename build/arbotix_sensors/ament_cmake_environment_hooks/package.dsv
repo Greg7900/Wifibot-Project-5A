@@ -1,4 +1,0 @@
-source;share/arbotix_sensors/local_setup.bash
-source;share/arbotix_sensors/local_setup.dsv
-source;share/arbotix_sensors/local_setup.sh
-source;share/arbotix_sensors/local_setup.zsh

@@ -1,6 +1,0 @@
-<launch>
-<!-- camera driver -->
-<remap from= "/camera/image_raw" to="/image_raw" />
-<node pkg="camera1394" type="camera1394_node" name="camera_node" output="screen"
-      args="_video_mode:='640x480_rgb8'"/>
-</launch>

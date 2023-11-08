@@ -1,9 +1,0 @@
-/home/greg/ros2_ws/build/arbotix_controllers/CMakeFiles/uninstall.dir
-/home/greg/ros2_ws/build/arbotix_controllers/CMakeFiles/arbotix_controllers_uninstall.dir
-/home/greg/ros2_ws/build/arbotix_controllers/CMakeFiles/test.dir
-/home/greg/ros2_ws/build/arbotix_controllers/CMakeFiles/edit_cache.dir
-/home/greg/ros2_ws/build/arbotix_controllers/CMakeFiles/rebuild_cache.dir
-/home/greg/ros2_ws/build/arbotix_controllers/CMakeFiles/list_install_components.dir
-/home/greg/ros2_ws/build/arbotix_controllers/CMakeFiles/install.dir
-/home/greg/ros2_ws/build/arbotix_controllers/CMakeFiles/install/local.dir
-/home/greg/ros2_ws/build/arbotix_controllers/CMakeFiles/install/strip.dir
